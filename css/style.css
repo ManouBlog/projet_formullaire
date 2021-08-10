@@ -1,0 +1,105 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkslategrey; 
+}
+.content{
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+.conteneur{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding-left: 2rem;
+    transition: box-shadow 100ms ease-in-out ; 
+    border:1px solid rgb(114, 114, 114);
+    border-radius: 3px;  
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    outline: none;
+    border-color:transparent;
+    box-shadow: 0 0 3px 1px teal;
+}
+.entree__username{
+    margin-bottom: .7rem;
+    position: relative; 
+}
+.entree__username .fa-user-alt{
+    position: absolute;
+    left:.5rem;
+    top: 40%;
+    font-size:1.3rem;
+}
+.entree__password{
+    position: relative;
+}
+.entree__password .fa-key{
+    position: absolute;
+    left:.5rem;
+    top: 55%;
+    font-size:1rem;
+}
+.ecriteau{
+    font-size: .6rem;
+    font-weight: 500;
+}
+.verification{
+    width: 100%;
+    margin: 1rem 0 0 0;
+    display: inline-block;
+}
+.verification__remember-me{
+    font-weight: lighter;
+    font-size: .9rem;
+    vertical-align: top;
+    margin-left: .2rem;
+}
+.btn{
+    margin: 1rem auto;
+    width: 100%;
+    height: 50px;
+}
+.btn__submit{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #105f94;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: .9rem;
+    box-shadow: -1px 1px 5px 1px black ;
+    cursor: pointer;
+}
+.btn__submit:focus{
+  background:#034674; 
+  transform: scale(.8,.8); 
+}
+
+
+
+
+
+
