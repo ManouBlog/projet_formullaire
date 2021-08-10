@@ -97,6 +97,12 @@ input[type="text"]:focus,input[type="password"]:focus{
   background:#034674; 
   transform: scale(.8,.8); 
 }
+@media screen and (max-width:500px) {
+   .conteneur{
+      padding: O;
+      margin: 1rem;
+   } 
+}
 
 
 
